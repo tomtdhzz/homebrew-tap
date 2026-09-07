@@ -1,25 +1,25 @@
 class Tutor < Formula
-  desc "Local omp tutor: per-window work board, auto-mined study loop, and a daily briefing (reads omp sessions, brains via omp -p)"
+  desc "Local omp tutor: an auto-mined study loop, subject courses (LLM-drafted roadmaps), a per-window work board, and a daily briefing"
   homepage "https://github.com/tomtdhzz/tutor"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.1.0/tutor-aarch64-apple-darwin.tar.xz"
-      sha256 "8828d1e45b2eab5ba21e7a16645fc11ef62ff65d954b46bacaaa0981c8fb02a1"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-aarch64-apple-darwin.tar.xz"
+      sha256 "32ef56ce32fa934f9ce5a1c1cb9da02f30ff30102ffb78e959d009845cb97299"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.1.0/tutor-x86_64-apple-darwin.tar.xz"
-      sha256 "c3e4009dd2687b5f63c3a563f6ac01166a9c29bd252f3bbaf2f5cce1987a9428"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-x86_64-apple-darwin.tar.xz"
+      sha256 "b6ace34df3c2ac5819c19af86edf2e15d62c8b55df23473f2f8b68f93af2e662"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.1.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ce1117953ce184d762fa2e1e82fb7c89915f4d22c7b16797128818bf464c362c"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3351c862c5e4f544ee1f4802f1879694335f82758dfee94229ecccbff98c005a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.1.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6357327bfe42cb903eabb934852d54bfcfa53be82e8b7a2ac177291990d7f7c6"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "dbb5e19337edf87abff232bb4858d5c3bd002f6f980ec0ad1113bb244afa205b"
     end
   end
   license "MIT"
