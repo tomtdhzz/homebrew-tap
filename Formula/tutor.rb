@@ -1,25 +1,25 @@
 class Tutor < Formula
-  desc "Local omp tutor: an auto-mined study loop, subject courses (LLM-drafted roadmaps), a per-window work board, and a daily briefing"
+  desc "Local omp tutor: a study loop, subject courses, a per-window work board, and a daily briefing"
   homepage "https://github.com/tomtdhzz/tutor"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-aarch64-apple-darwin.tar.xz"
-      sha256 "32ef56ce32fa934f9ce5a1c1cb9da02f30ff30102ffb78e959d009845cb97299"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-aarch64-apple-darwin.tar.xz"
+      sha256 "f817e010b18aa253108f7c4f1c556e7bdc80104a2eac703874312956d0105bd3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-x86_64-apple-darwin.tar.xz"
-      sha256 "b6ace34df3c2ac5819c19af86edf2e15d62c8b55df23473f2f8b68f93af2e662"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-x86_64-apple-darwin.tar.xz"
+      sha256 "d3d66ccd00494509f0c02f78f7e15bb28babef595dcc387897cb62d028eb0899"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3351c862c5e4f544ee1f4802f1879694335f82758dfee94229ecccbff98c005a"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7a3db7e2790b79e95d79d3cb2a78eeb1371ef263f47068885c27cb617473a0ac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.2.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dbb5e19337edf87abff232bb4858d5c3bd002f6f980ec0ad1113bb244afa205b"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e7446d85c32322aa1ca98be9d74eafca2f25573f033c3da71db616d3c2348342"
     end
   end
   license "MIT"
