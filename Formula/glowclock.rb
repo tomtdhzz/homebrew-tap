@@ -1,25 +1,25 @@
 class Glowclock < Formula
   desc "A gradient big-digit terminal clock (tty-clock style) with crontab-style reminders and a fat-cat popup"
   homepage "https://github.com/tomtdhzz/glowclock"
-  version "0.1.0"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.0/glowclock-aarch64-apple-darwin.tar.xz"
-      sha256 "1a5ccdcaf99bfce7d52ebf313ad2e5b41fb821b995a851b8f2ca0e8bb3e682c3"
+      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.2/glowclock-aarch64-apple-darwin.tar.xz"
+      sha256 "41f36ff149d1871e8b10a7401a77c67b634020e9c44c2226aedabafb56cf1a85"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.0/glowclock-x86_64-apple-darwin.tar.xz"
-      sha256 "c0c02680bd503756770d59ba7cf8a448773ef0078d42401fda656fb836396cbd"
+      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.2/glowclock-x86_64-apple-darwin.tar.xz"
+      sha256 "da177e6f84c12ce3e3a9218746d0ea753720c8d31163ee34b9f94905382c7896"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.0/glowclock-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a19a36a62dca0ae36e56964a71146c51de864ba9d91cc01678a155c0ec3c86df"
+      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.2/glowclock-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c77dabbb26a8a103eb85750416a2f491378fef66f96e7ebedef8fb9d6e6621f8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.0/glowclock-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "684957d9e214485e47b17aec02aab8821cc37929c2f72437d1cae0f4a7f839d1"
+      url "https://github.com/tomtdhzz/glowclock/releases/download/v0.1.2/glowclock-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "aa5af4473ab83a85745d836315c0abfe6ee8a45f8416f7363b916e204e64885c"
     end
   end
   license "MIT"
