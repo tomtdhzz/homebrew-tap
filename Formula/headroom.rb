@@ -1,25 +1,25 @@
 class Headroom < Formula
   desc "Per-model, rule-aware quota headroom monitor for AI coding subscriptions (Claude / Codex via omp)"
   homepage "https://github.com/tomtdhzz/headroom"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/headroom/releases/download/v0.1.1/headroom-aarch64-apple-darwin.tar.xz"
-      sha256 "f20453033e17fc0f6b4c40f6d0f87c41acbee8ad2afc7bf34ad260fe62976684"
+      url "https://github.com/tomtdhzz/headroom/releases/download/v0.2.0/headroom-aarch64-apple-darwin.tar.xz"
+      sha256 "14af96afacc025bd980f0cf1a8089a99b6f6e4c9d3737afa9c893b7de3ea0414"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/headroom/releases/download/v0.1.1/headroom-x86_64-apple-darwin.tar.xz"
-      sha256 "8a8a1a97c0f7f676f29e81fdccd10d5eee2dce695292120c247d84f12ec64c54"
+      url "https://github.com/tomtdhzz/headroom/releases/download/v0.2.0/headroom-x86_64-apple-darwin.tar.xz"
+      sha256 "2d4869f24f7fd77ffa6c4d1edb69862d2b8fe562bc62b0e30bbd628e266e19f4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/headroom/releases/download/v0.1.1/headroom-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "dfe3af072a5909fafb3a12ace2a17970854c3d0b5b019cc93521b65413eec227"
+      url "https://github.com/tomtdhzz/headroom/releases/download/v0.2.0/headroom-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ccefccc75b14d306a8835c9a795c200e48d8cf0d61ed0ef194e3386cc56b2926"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/headroom/releases/download/v0.1.1/headroom-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e1d9cdee90890edf44e445a830a65e7553e1d66fcd5697155ebfe19747b52228"
+      url "https://github.com/tomtdhzz/headroom/releases/download/v0.2.0/headroom-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4fb299f5a377758d9db6da0913a956a582e3fd65668089b1fbdb84af4c610424"
     end
   end
   license "MIT"
