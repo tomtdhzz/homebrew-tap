@@ -1,25 +1,25 @@
 class Tutor < Formula
   desc "Local omp tutor: a study loop, subject courses, a per-window work board, and a daily briefing"
   homepage "https://github.com/tomtdhzz/tutor"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-aarch64-apple-darwin.tar.xz"
-      sha256 "f817e010b18aa253108f7c4f1c556e7bdc80104a2eac703874312956d0105bd3"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.4.0/tutor-aarch64-apple-darwin.tar.xz"
+      sha256 "b91b8dffe98a46ee7b08f9bca1eca62505decf67f8e9941dc78ba3f4a9e63d12"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-x86_64-apple-darwin.tar.xz"
-      sha256 "d3d66ccd00494509f0c02f78f7e15bb28babef595dcc387897cb62d028eb0899"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.4.0/tutor-x86_64-apple-darwin.tar.xz"
+      sha256 "dfe5fabb69d035358f8f1c128be3b7442bd35a76e2dc1f90fe4a01c32c62f86c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7a3db7e2790b79e95d79d3cb2a78eeb1371ef263f47068885c27cb617473a0ac"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.4.0/tutor-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "525eb9808dc600c1a90a15b33490144d720dfc21b99958ae244b211c37104d28"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tomtdhzz/tutor/releases/download/v0.3.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "e7446d85c32322aa1ca98be9d74eafca2f25573f033c3da71db616d3c2348342"
+      url "https://github.com/tomtdhzz/tutor/releases/download/v0.4.0/tutor-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d7485f033becdf3a428429efdd565ae213e6217511da400ee6099e87af34e453"
     end
   end
   license "MIT"
